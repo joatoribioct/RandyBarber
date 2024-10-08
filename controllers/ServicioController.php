@@ -5,7 +5,7 @@ namespace Controllers;
 use Model\Servicio;
 use MVC\Router;
 
-class ServicioController {
+class servicioController {
     public static function index(Router $router) {
         session_start();
 
