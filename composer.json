@@ -1,0 +1,24 @@
+{
+    "name": "themaskpower/app-salon_php_mvc_js_sass",
+    "description": "proyecto php 8, mvc, sql, sass, Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Themaskpower\\AppSalonPhpMvcJsSass\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Clases\\" : "./clases"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "Joandry carrasco"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
